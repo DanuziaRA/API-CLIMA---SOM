@@ -24,9 +24,9 @@ A estrutura do repositório é organizada em pastas que facilitam a navegação 
 
 ## Das Funcionalidades Principais
 ## Previsão do Tempo: 
-Os usuários podem buscar informações meteorológicas para diferentes localidades, com dados detalhados como temperatura, umidade, condições climáticas, entre outros.\
+Os usuários podem buscar informações meteorológicas para diferentes localidades, com dados detalhados como temperatura, umidade, condições climáticas, entre outros.
 ## Player de Música: 
-A aplicação inclui um player de música que permite aos usuários tocar suas faixas favoritas, proporcionando uma experiência de entretenimento enquanto consultam a previsão do tempo.\
+A aplicação inclui um player de música que permite aos usuários tocar suas faixas favoritas, proporcionando uma experiência de entretenimento enquanto consultam a previsão do tempo.
 ## Design Responsivo: 
 O layout é otimizado para funcionar em uma variedade de tamanhos de tela, garantindo uma usabilidade fluida em dispositivos Android e iOS.
 
