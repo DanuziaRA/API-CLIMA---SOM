@@ -18,8 +18,8 @@ A estrutura do repositório é organizada em pastas que facilitam a navegação 
 /styles: Arquivos CSS que definem a estilização da interface. 
 
 ## Das Tecnologias Utilizadas
-1. React.js: Utilizado para a construção da interface de usuário, permitindo um desenvolvimento ágil e modular, além de proporcionar uma experiência dinâmica e responsiva.\
-2. HTML & CSS: Fundamentais para a estruturação e estilização da aplicação, assegurando um design visual atraente e funcional.\
+1. React.js: Utilizado para a construção da interface de usuário, permitindo um desenvolvimento ágil e modular, além de proporcionar uma experiência dinâmica e responsiva.
+2. HTML & CSS: Fundamentais para a estruturação e estilização da aplicação, assegurando um design visual atraente e funcional.
 3. API OpenWeather: A integração com esta API permite o acesso a dados meteorológicos precisos e atualizados, oferecendo previsões de tempo por localização.
 
 ## Das Funcionalidades Principais
