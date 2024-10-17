@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body, html{
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+.video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.conteudo-clima img{
+    height: 9.5rem;
+}
+
+@media (max-width: 810px){
+.container{
+    height: auto;
+    padding: 2rem 1rem; 
+}
+
+}
+.caixa{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 2rem;
+    color: aliceblue;
+}
+
+.procura{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.procura button{
+    margin: 0rem 1rem 0rem;
+    padding: 0;
+    width: 0.1px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    z-index: 1;
+    background: #fffffd00;
+    border:none;
+    border-radius: 30%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.procura input{
+    height: 50px;
+    width: 40px;
+    padding: 0.5rem 0.5rem 0.5rem 2.6rem;
+    visibility: hidden;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.envelope{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    visibility: hidden;
+}
+
+@media(max-width: 810px){
+.envelope{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+.conteudo-clima{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem;
+    width: 350px;
+    height: 100%;
+    max-height:550px;
+}
+
+@media(max-width: 810px){
+    .conteudo-clima{
+        width: 250px;
+    }
+}
+
+.conteudo-clima img{
+    height: 11.5;
+    margin-bottom:0.25rem;
+}
+
+@media(max-width: 810px){
+    .conteudo-clima img{
+        height: 8.5rem;
+    }
+}
+
+.conteudo-clima h2{
+    width: 325px;
+    margin-bottom: 0.625rem;
+    font-size: 3.375rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width: 810px){
+    .conteudo-clima h2{
+        font-size: 2.375rem;
+    }
+}
+
+.conteudo-clima h3{
+    font-size: 6rem;
+    height: 6rem;
+    font-weight: 400;
+    margin-bottom:1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media(max-width: 810px){
+    .conteudo-clima h3{
+        font-size: 5rem;
+        line-height: 3rem;
+    }
+}
+
+.conteudo-variacoes{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+}
+.conteudo-variacoes p{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 100%;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+@media(max-width: 810px){
+    .conteudo-variacoes{
+        max-width: 170px;
+    }
+    .conteudo-variacoes p{
+        font-size: 1.5rem;
+        line-height: initial;
+}
+}
+
+.conteudo-clima::after{
+content:"";
+position: absolute;
+top: 8rem;
+left: 0;
+width: 406px;
+height: 350px;
+border-radius: 50px;
+background: linear-gradient(180deg, rgba(194, 188, 194, 0.00) 0%, rgba(194,188, 194, 0.75));
+box-shadow: 0px 5px 5px 0px rgb(96, 93, 93);
+filter: blur(4.5px);
+z-index: -1;
+}
+
+@media(max-width: 810px){
+    .conteudo-clima::after{
+        width: 250px;
+        height: 290px;
+        top:4rem;
+    }
+}
+
+.conteudo-musica{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem;
+    width: 350px;
+    height: 100%;
+    max-height:550px;
+    z-index: 1;
+}
+
+@media(max-width: 810px){
+    .conteudo-musica{
+        width: 250px;
+    }
+}
+
+.icone-musica{
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+}
+
+@media(max-width: 810px){
+    .icone-musica{
+        width: 6.5rem;
+        height: 6.5rem;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+    }
+}
+
+.conteudo-musica h2{
+    margin-bottom: 2rem;
+    font-size: 3.375rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media(max-width: 810px){
+    .conteudo-musica h2{
+        font-size: 2.375rem;
+        margin-bottom: 1.75rem;
+    }
+}
+
+.playlist-caixa{
+    width:100%;
+    list-style: none;
+}
+.playlist-caixa li{
+    display: flex;
+    align-items:center;
+    margin-bottom: 0.5rem;
+    padding: 0rem 0.75rem;
+}
+.playlist-caixa li img{
+    width: 40px;
+    height: 40px;
+    margin-right: 0.75rem;
+}
+
+.playlist-caixa li p{
+    width: 210px;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width: 810px){
+    .playlist-caixa li p{
+        font-size: 1.5rem;
+    }
+    .playlist-caixa li img{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.conteudo-musica::after{
+    content:"";
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 406px;
+    height: 350px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgba(194, 188, 194, 0.00) 0%, rgba(194,188, 194, 0.75));
+    box-shadow: 0px 5px 5px 0px rgb(96, 93, 93);
+    filter: blur(4.5px);
+    z-index: -1;
+    }
+
+    @media(max-width: 810px){
+        .conteudo-musica::after{
+            width: 250px;
+            height: 330px;
+            top: 5rem;
+        }
+    }
+    .previous{
+        padding-right: 15px;
+    }
+    .play{
+        padding-right: 15px;
+    }
+    .next{
+        padding-right: 5px;
+    }
+    .pause{
+        padding-right: 15px;
+    }
